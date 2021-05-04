@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <main className="App">
         <Switch>
-          <Route exact path='/p1' component={NeonBlossomPage} />
+          <Route path='/' component={NeonBlossomPage} />
         </Switch>
       </main>
     );
