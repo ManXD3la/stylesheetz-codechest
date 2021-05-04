@@ -10,7 +10,7 @@ function NeonBlossomPage() {
             <div className='container' id="moz-reflect">
                 <div className='neon-btn-container'>
                     <Link clasname='neon-button' href='/p1' >
-                        NEON
+                        ENTER
                     </Link>
 
                 </div>
