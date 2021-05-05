@@ -5,6 +5,7 @@ import './App.css';
 
 import DateTab from './components/DateTab/DateTab';
 import NeonBlossomPage from './pages/NeonBlossom/NeonBlossomPage';
+import InterKMTimePage from './pages/InterKMTime/InterKMTimePage';
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
       <main className="App">
         <DateTab />
         <Switch>
-          <Route path='/' component={NeonBlossomPage} />
+          <Route exact path='/' component={NeonBlossomPage} />
+          <Route exact path='/p2' component={InterKMTimePage} />
         </Switch>
       </main>
     );
