@@ -6,6 +6,7 @@ import './App.css';
 import DateTab from './components/DateTab/DateTab';
 import NeonBlossomPage from './pages/NeonBlossom/NeonBlossomPage';
 import InterKMTimePage from './pages/InterKMTime/InterKMTimePage';
+import FutureFeedbackFormPage from './pages/FutureFeedbackForm/FutureFeedbackFormPage';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={NeonBlossomPage} />
           <Route exact path='/p2' component={InterKMTimePage} />
+          <Route exact path='/p3' component={FutureFeedbackFormPage} />
         </Switch>
       </main>
     );
