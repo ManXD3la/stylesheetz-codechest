@@ -1,0 +1,26 @@
+/* Accessibility color combinations:
+    https://toolness.github.io/accessible-color-matrix/?n=white&n=light&n=bright&n=medium&n=schemdium&n=black&v=FFFFFF&v=ADF1D2&v=0065CA&v=007F42&v=C32E01&v=070707
+*/
+
+:root {
+        --yff-yeblue: hsl(210, 100%, 40%);
+        --yff-rerust: hsl(14, 99%, 38%);
+        --yff-prgreen: hsl(151, 100%, 25%);
+        --yff-ltgreen: hsl(153, 71%, 81%);
+        --yff-bgblack: hsl(0, 0%, 3%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div.container {
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: var(--yff-prgreen);
+}
+
+div.form-container {
+    
+}
